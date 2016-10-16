@@ -1,0 +1,15 @@
+<div class="artical">
+	<div class="location">
+		当前所在位置：首页 >> 生产管理与动保防疫
+	</div>
+	<section class="article-list">	
+		<div class="div-artical"  ng-repeat="art in articals">
+			<div class="div-inf">
+				<h3><a href="#/articalDetail">{{art.title}}</a></h3>
+				<div class="abstract"><p>{{art.abstrat}}</p></div>
+				<div class="releasetime">发布时间：{{art.release-time}}</div>
+			</div>
+			<div class="div-img"><img src={{art.imgUrl}} alt="图片未找到" class="img-list" /></div>
+		</div>
+	</section>
+</div>
