@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>种植页面</title>
+		<link rel="stylesheet" href="../../css/global.css" />
+		<link rel="stylesheet" href="../../css/nei.css" />
+		<link rel="stylesheet" href="../../css/plant.css" />
+	</head>
+
+	<body>
+		<!--顶部开始-->
+		<div class="top">
+			<div class="topMain">
+				<span>欢迎来到半仙他哥的养猪官方网站</span>
+				<p>联系电话：17001812888</p>
+			</div>
+		</div>
+		<!--顶部结束-->
+		<!--导航开始-->
+		<div class="nav">
+			<div class="navMain">
+				<div class="logo">
+					<a href="/"><img src="../../images/logo.png" /></a>
+				</div>
+				<div class="navList">
+					<!--
+					<ul>
+						<li>
+							<a href="#/corn">玉米</a>
+						</li>
+						<li>
+							<a href="#/soybean">黄豆</a>
+						</li>
+						<li>
+							<a href="#/wheat">小麦</a>
+						</li>
+
+					</ul>
+					-->
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+		<div class="container">
+			<section class="main" ng-app="produce">
+				<div ng-view></div>
+			</section>
+			<div class="n_left">
+				<div class="map">
+					<a href="#"><img src="../../images/n_map.png" /></a>
+				</div>
+				
+				<div class="n_contact">
+					<span>粮食作物</span>
+					<a href="#/corn">玉米</a>
+					<a href="#/soybean">黄豆</a>
+					<a href="#/wheat">小麦</a>
+					<!--<img src="../../images/n_contact.jpg" /> -->
+					<span>绿化树种</span>
+					<a href="#/xiangzhang">香樟</a>
+					<a href="#/guihua">桂花</a>
+					<a href="#/yinxing">银杏</a>
+					<a href="#/ziwei">紫薇</a>
+					<a href="#/pushu">朴树</a>
+					<a href="#/xuesong">雪松</a>
+					<a href="#/dayenvzhen">大叶女贞</a>
+					<a href="#/luohansong">罗汉松</a>
+					<a href="#/hongyeshinan">红叶石楠</a>
+					<a href="#/hongjimu">红继木</a>
+					<a href="#/jinsennvzhen">金森女贞</a>
+					<a href="#/haitong">海桐</a>
+					<a href="#/faqing">法青</a>
+	
+					
+				</div>
+			</div>
+			
+		</div>
+		<footer></footer>
+		<script type="text/javascript" src="../../js/lib/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="../../js/lib/angular/angular.js"></script>
+		<script type="text/javascript" src="../../js/lib/angular/angular-route.js"></script>
+		<script type="text/javascript" src="../../js/app/plant.js"></script>
+	</body>
+
+</html>
